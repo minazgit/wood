@@ -10,10 +10,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-/**
- *
- * @author Minaz
- */
+
 public class JdbcConnection  implements ServletContextListener {
 
     

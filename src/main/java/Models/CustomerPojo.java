@@ -6,10 +6,6 @@
 
 package Models;
 
-/**
- *
- * @author Minaz
- */
 public class CustomerPojo {
     
     int cid;

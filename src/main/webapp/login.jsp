@@ -10,7 +10,7 @@
                 <div class="navigation">
 
                     <div class="container" >	
-                        <!--<div class="col-md1-1" style="background-color:red">asas</div>-->
+                       
                         <div class="navbar-header"  >
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
                                 <span class="sr-only">Toggle navigation</span>
@@ -21,7 +21,7 @@
                             <div class="navbar-brand" >
                                 <a href="index.html">
                                     <!--<span><img src="images/3.jpg"></span>-->
-                                    <h1><span style="color:#8B4513">Wood</span>Measure</h1>
+                                    <h1><span style="color:#8B4513">Wood</span>Measur </h1>
                                 </a>
                             </div>
                         </div>

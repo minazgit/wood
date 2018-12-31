@@ -2,10 +2,6 @@
 
 package Models;
 
-/**
- *
- * @author Minaz
- */
 public class Measure {
     
     int srno;

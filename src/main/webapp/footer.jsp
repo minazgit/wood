@@ -10,10 +10,7 @@
                     <br>   Devloped By   <a href="http://www.archivessoftdesign.in/">Archives Soft Design (opc) Pvt. Ltd.</a> <br>
                     Maintained By   Osho Giri, Minaz Parasara<br>
                     Marketing By   Chirag Mistry, <a href="http://www.hitsolution.co.in/">Hirva IT Solution</a> <br>                   
-                </div>
-                    
-                    
-                    <div class="col-md-6" style="height:8px;color:black;font-size:8px">Maintained by  Minaz Parasara</div>
+                </div>                                        
             </div>
         </div>
     </div>
