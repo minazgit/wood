@@ -5,11 +5,15 @@
     <div class="sub-footer " >
         <div class="container">
             <div class="row" >
-                <div class="col-md-6">
-                    &copy; 2018 - Wood Measure   <a href="<%=application.getContextPath()%>/version1.jsp" >(Version 1.0)</a>
-                    <br>   Devloped By   <a href="http://www.archivessoftdesign.in/">Archives Soft Design (opc) Pvt. Ltd.</a><br>                   
-                  Marketing By   <a href="http://www.hitsolution.co.in/">Hirva IT Solution</a><br>
+                <div class="col-md-6">                 
+                    &copy; 2018 - Wood Measure, All rights reserved.   <a href="<%=application.getContextPath()%>/version1.jsp" >(Version 1.0)</a> 
+                    <br>   Devloped By   <a href="http://www.archivessoftdesign.in/">Archives Soft Design (opc) Pvt. Ltd.</a> <br>
+                    Maintained By   Osho Giri, Minaz Parasara<br>
+                    Marketing By   Chirag Mistry, <a href="http://www.hitsolution.co.in/">Hirva IT Solution</a> <br>                   
                 </div>
+                    
+                    
+                    <div class="col-md-6" style="height:8px;color:black;font-size:8px">Maintained by  Minaz Parasara</div>
             </div>
         </div>
     </div>

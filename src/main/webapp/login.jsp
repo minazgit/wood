@@ -4,9 +4,7 @@
         <%@include file="/adminHeader.jsp"%>	   
     </head>
     <body>
-        <%
-            response.sendRedirect("adminPanel.jsp");
-        %>
+      
         <header>		
             <nav class="navbar navbar-default navbar-static-top" role="navigation" >
                 <div class="navigation">

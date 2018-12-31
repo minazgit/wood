@@ -25,7 +25,13 @@
     
     <body>
         <%@include file="/adminBodyHeader.jsp"%>
-
+<%
+        String email=(String)session.getAttribute("adminemail");
+        if (email==null)
+        {
+           response.sendRedirect(application.getContextPath()+"/"+"login.jsp");
+        }
+        %>
         <div class="contact">
             <div class="container">
                 <div class="text-center">

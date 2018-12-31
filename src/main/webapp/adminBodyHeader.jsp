@@ -33,8 +33,9 @@
                             <li role="presentation"><a href="<%=application.getContextPath()%>/WoodViewServlet">View Wood</a></li>
                             <li role="presentation"><a href="<%=application.getContextPath()%>/customerInsert.jsp">Add Customer</a></li>
                             <li role="presentation"><a href="<%=application.getContextPath()%>/CustomerViewServlet">View Customer</a></li>
-                            <li role="presentation"><a href="<%=application.getContextPath()%>/MeasureMainViewServlet">Measure main</a></li>                 
-
+                            <li role="presentation"><a href="<%=application.getContextPath()%>/MeasureMainViewServlet">Measure main</a></li>
+                            <li role="presentation"><a href="<%=application.getContextPath()%>/changepassword.jsp">Change Password</a></li>                 
+                            <li role="presentation"><a href="<%=application.getContextPath()%>/SignoutServlet">Sign out</a></li>                 
                         </ul>
                     </div>
                 </div>						
