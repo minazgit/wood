@@ -21,7 +21,7 @@
                             <div class="navbar-brand" >
                                 <a href="index.html">
                                     <!--<span><img src="images/3.jpg"></span>-->
-                                    <h1><span style="color:#8B4513">Wood</span>Measure Applecation</h1>
+                                    <h1><span style="color:#8B4513">Wood</span>Measure</h1>
                                 </a>
                             </div>
                         </div>
