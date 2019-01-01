@@ -115,7 +115,7 @@ public class CustomerOperations {
          System.out.println("116----"+c.getFname());
          con = (Connection)ctx.getAttribute("con");
             stmt = con.createStatement();
-        //cid, fname, lname, contactno, email, addline1, addline2, area, pincode, city;
+       
        stmt.executeUpdate("update customer set fname='"+c.getFname()+"',lname='"+c.getLname()+"' ,contactno="+c.getContactno()+",email='"+c.getEmail()+"',addline1='"+c.getAddline1()+"',addline2='"+c.getAddline2()+"',area='"+c.getArea()+"',pincode="+c.getPincode()+" ,city='"+c.getCity()+"' where cid="+c.getCid()+"");
          System.out.println("118=====op");
         return "success";

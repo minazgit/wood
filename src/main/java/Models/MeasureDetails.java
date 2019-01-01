@@ -2,10 +2,7 @@
 
 package Models;
 
-/**
- *
- * @author Minaz
- */
+
 public class MeasureDetails {
     
    int pid;

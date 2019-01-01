@@ -1,15 +1,5 @@
 <%@ page pageEncoding="UTF-8" %>
 
-<%--
-<%
-   String un=(String)session.getAttribute("adminemail");
-   if(un==null)
-   {
-       response.sendRedirect(application.getContextPath()+"/login.jsp");
-   }
-
-%>
---%>
 <header>		
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="navigation">

@@ -71,33 +71,7 @@ public class MeasureOperations {
         return msg;
     }
 
-//    public String insertWood(WoodPojo w) {
-//        String msg = "";
-//        try {
-//            con = (Connection) ctx.getAttribute("con");
-//            if (con != null) {
-//                stmt = con.createStatement();
-//
-//                if (w != null) {                 
-//                   stmt.executeUpdate("insert into woodtype(woodtype) values('"+w.getWtype()+"')");
-//                    
-//                    msg = "success";
-//
-//                } else {
-//                    msg = "error";
-//                }
-//            } else {
-//                msg = "error";
-//            }
-//            stmt.close();
-//
-//        } catch (Exception e) {
-//            msg = "error";
-//            System.out.println(e.getMessage());
-//        }
-//
-//        return msg;
-//    }
+
     public ArrayList<MeasureDetails> getAllMeasureDetails(int sno) {
         int pid;
         double length;
@@ -140,21 +114,7 @@ public class MeasureOperations {
         return mesdetail;
     }
 
-//    public String deleteWood(int wd) {
-//        String msg = "";
-//        try {
-//            con = (Connection)ctx.getAttribute("con");
-//            stmt = con.createStatement();
-//            stmt.executeUpdate("delete from  woodtype where wid="+ wd +"");
-//            msg = "success";
-//            stmt.close();
-//            rs.close();
-//        } catch (Exception e) {
-//            msg="error";
-//            System.out.println(e.getMessage());
-//        }
-//        return msg;
-//    }
+
     public ArrayList<MeasureMainView> getAllMeasureMain() {
         int srno;
         String fn;
@@ -211,7 +171,7 @@ public class MeasureOperations {
         ResultSet rs;
         int srno;
         int max = 0;
-        String sql = "SELECT `AUTO_INCREMENT` FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'woodproject' AND   TABLE_NAME   = 'measure_main'";
+        String sql = "SELECT `AUTO_INCREMENT` FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'pfxjxp8cckb6zimh' AND   TABLE_NAME   = 'measure_main'";
         try {
             stmt = con.prepareStatement(sql);
             rs = stmt.executeQuery(sql);

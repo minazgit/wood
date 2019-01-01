@@ -120,7 +120,7 @@
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
            
         </div>
-        <footer>
+<!--        <footer>
             <div class="sub-footer " >
                 <div class="container">
                     <div class="row" >
@@ -132,6 +132,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer>-->
+<%@include file="footer.jsp"%>
     </body>
 </html>
