@@ -168,9 +168,9 @@ public class MeasureOperations {
             con = (Connection) ctx.getAttribute("con");
             stmt = con.createStatement();
 
-            rs = stmt.executeQuery("select mm.srno,cs.fname,lname,mm.cdate,mm.total,wt.woodtype from woodproject.measure_main  mm\n"
-                    + "inner join  woodproject.woodtype wt on wt.wid=mm.wid\n"
-                    + "inner join woodproject.customer  cs  on mm.cid=cs.cid;");
+            rs = stmt.executeQuery("select mm.srno,cs.fname,lname,mm.cdate,mm.total,wt.woodtype from measure_main  mm\n"
+                    + "inner join woodtype wt on wt.wid=mm.wid\n"
+                    + "inner join customer  cs  on mm.cid=cs.cid;");
             System.out.println("======172=======");
             while (rs.next()) {
                 System.out.println("====174======");
