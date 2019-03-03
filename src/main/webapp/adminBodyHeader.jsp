@@ -12,7 +12,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="navbar-brand">
-                        <a href="<%=application.getContextPath()%>/adminPannel.jsp"><h1><span style="color:#8B4513">Sahjanand</span> Saw Mill</h1></a>                        
+                        <a href="<%=application.getContextPath()%>/adminPannel.jsp"><h1><span style="color:#8B4513">Sahajanand</span> Saw Mill</h1></a>                        
                     </div>
                 </div>
 
